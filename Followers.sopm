@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>Followers</Name>
+    <Version>6.0.0</Version>
+    <Vendor>Complemento [Enterprise]</Vendor>
+    <URL>http://www.complemento.net.br/otrs</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</License>
+    <Description Lang="en">Add and remove Watchers from the ticket and also send quick notes to them!</Description>
+    <Framework>6.0.x</Framework>
+    <IntroInstall Lang="en" Title="Tutorial" Type="pre">Don't use this package without testing exautivily on a devel server.</IntroInstall>
+    <Filelist>
+        <File Location="Kernel/Config/Files/XML/Followers.xml" Permission="644"></File>
+        <File Location="Kernel/Language/pt_BR_Followers.pm" Permission="644"></File>
+        <File Location="Kernel/Output/HTML/Templates/Standard/ShowFollowersSideBar.tt" Permission="644"></File>
+        <File Location="Kernel/Output/HTML/OutputFilterFollowers/OutputFilterFollowers.pm" Permission="644"></File>
+        <File Location="Kernel/Modules/Followers.pm" Permission="644"></File>
+        <File Location="Followers.sopm" Permission="644"></File>
+    </Filelist>
+</otrs_package>

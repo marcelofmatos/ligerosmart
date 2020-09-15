@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>SmartClassification</Name>
+    <Version>6.0.0</Version>
+    <Framework>6.0.x</Framework>
+    <Vendor>Ligero</Vendor>
+    <URL>http://www.complemento.net.br/</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</License>
+    <Description Lang="en">Make it easy to classify ticket information, directly on Ticket View screen. Suggest classification automatically if you have Ligero Smart Installed.</Description>
+    <Description Lang="pt_BR">Torna a classificação do chamado simples, diretamente na visualizaçao do chamado, alertando quando o mesmo não encontra-se classificado. Este AddOn ainda pode sugerir a melhor classificação do chamado se você possuir o Ligero Smart instalado.</Description>
+    <Filelist>
+        <File Permission="644" Location="Custom/SmartClassification.sopm"></File>
+        <File Permission="644" Location="Kernel/Modules/AgentTicketLigeroSmartClassification.pm"></File>
+        <File Permission="644" Location="Kernel/Output/HTML/Ligero/LigeroTicketWidget.pm"></File>
+        <File Permission="644" Location="Kernel/Output/HTML/Templates/Standard/AgentTicketLigeroSmartClassification.tt"></File>
+        <File Permission="644" Location="Kernel/Config/Files/XML/Ligero.SmartClassification.xml"></File>
+        <File Permission="644" Location="Kernel/Language/pt_BR_LigeroSmartClassification.pm"></File>
+    </Filelist>
+</otrs_package>

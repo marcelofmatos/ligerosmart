@@ -1,0 +1,5 @@
+VERSION = 6.0.28
+BUILDDATE = Wed Apr  8 20:40:29 CEST 2020
+BUILDHOST = otrsbuild.otrs.com
+COMMIT_ID = 2a00b8cbaf7a5743b857680421c6171f4a3fb4c1
+PRODUCT = LigeroSmart
