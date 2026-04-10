@@ -15,7 +15,8 @@
 
         $SysConfigObject->SettingUpdate(
             Name              => 'DashboardBackend###0410-RSS',
-            EffectiveValue    => '0',
+            IsValid           => 0,
+            EffectiveValue    => $Setting{EffectiveValue},
             ExclusiveLockGUID => $ExclusiveLockGUID,
             UserID            => 1,
         );
